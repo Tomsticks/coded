@@ -220,7 +220,7 @@ font-size: 40px;
     .findAccount{
         width: 90%;
         height: 50vh;
-        position: absolute;
+        /* position: absolute; */
         margin-top: 170vh
     }
     @media(max-width:280px){
