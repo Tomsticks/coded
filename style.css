@@ -9,6 +9,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: rgba(0, 0, 0, 0.877);
+flex-direction: column;
 }
 .con{
     display: flex;
@@ -76,6 +77,7 @@ gap: 30%;
    box-shadow: 0 0 13px 2px;
     filter: brightness(1.2);
     padding: 0 5%;
+    
 }
 .findAccount:hover{
     opacity: 1;
@@ -112,6 +114,15 @@ gap: 30%;
     color: white;
     
 }
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 110vh;
+    text-align: center;
+    color: white;
+    position: absolute;
+    
+}
 
 /* MEDIA QUERY */
 @media(max-width:1718px){
@@ -119,6 +130,7 @@ gap: 30%;
         height: 50%;
         width: 30%
     }
+    
 }
 @media(max-width:1153px){
     .Bank-MainPage{
@@ -160,6 +172,10 @@ font-size: 40px;
       margin-top: 150vh;
         
     }
+    footer{
+        position: absolute;
+        margin-top: 270vh;
+    }
 }
 
 @media(max-width:570px){
@@ -176,6 +192,10 @@ font-size: 40px;
         align-items: center;
         border-radius: 0;
     
+    }
+    footer{
+        position: absolute;
+        margin-top: 130vh;
     }
     .Bank-MainPage{
         border-radius: 12px;
